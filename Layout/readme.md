@@ -7,7 +7,8 @@
 ![](https://github.com/123012013021/androidSpace/blob/master/Layout/img/4.png)<br>
 ------------------------------------------
 先在res/drawable文件夹下添加一个xml文件btn_styles，可以在button中使用该样式上色。
-···<?xml version="1.0" encoding="UTF-8"?>
+···
+<?xml version="1.0" encoding="UTF-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item>
@@ -27,7 +28,8 @@
 
 </layer-list>···
 布局选择垂直布局嵌套四个水平布局。
-···<?xml version="1.0" encoding="utf-8"?>
+···
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     android:orientation="vertical"
    >
