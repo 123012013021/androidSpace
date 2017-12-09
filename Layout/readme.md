@@ -4,7 +4,7 @@
 
 利用线性布局实现如下界面：
 
-![](https://github.com/123012013021/javaSpace/blob/master/IO_2/img/4.png)<br>
+![](https://github.com/123012013021/androidSpace/blob/master/Layout/img/4.png)<br>
 ------------------------------------------
 先在res/drawable文件夹下添加一个xml文件btn_styles，可以在button中使用该样式上色。
 ···<?xml version="1.0" encoding="UTF-8"?>
@@ -68,12 +68,12 @@
 
 #### 实验结果截图：
 
-![](https://github.com/123012013021/javaSpace/blob/master/IO_2/img/1.png)<br>
+![](https://github.com/123012013021/androidSpace/blob/master/Layout/img/1.png)<br>
   
   
 利用相对布局实现如下界面
 
-![](https://github.com/123012013021/javaSpace/blob/master/IO_2/img/5.png)<br>
+![](https://github.com/123012013021/androidSpace/blob/master/Layout/img/5.png)<br>
 
 ···
 采用相对布局管理器
@@ -124,12 +124,12 @@
 ···
 #### 实验结果截图：
 
-![](https://github.com/123012013021/javaSpace/blob/master/IO_2/img/2.png)<br>
+![](https://github.com/123012013021/androidSpace/blob/master/Layout/img/2.png)<br>
 
     
 
 利用表格布局实现如下界面：
-![](https://github.com/123012013021/javaSpace/blob/master/IO_2/img/6.png)<br>
+![](https://github.com/123012013021/androidSpace/blob/master/Layout/img/6.png)<br>
 ```
 //定义表格布局管理器  tablelayout内嵌套多个tablerow
 
@@ -147,4 +147,4 @@
 
 #### 实验结果截图：
 
-![](https://github.com/123012013021/javaSpace/blob/master/IO_2/img/3.png)<br>
+![](https://github.com/123012013021/androidSpace/blob/master/Layout/img/3.png)<br>
