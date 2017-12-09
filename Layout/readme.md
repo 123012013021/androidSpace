@@ -77,45 +77,50 @@
 
 ![](https://github.com/123012013021/androidSpace/blob/master/Layout/img/5.png)<br>
 
-···
+```
 采用相对布局管理器
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 > 
-//red按钮贴近父元素左边
+//red按钮贴近父元素左边<br>
+
     <Button
         android:layout_alignParentLeft="true"
       " />
       
-//ORANG按钮相对于父元素完全居中
+      
+//ORANG按钮相对于父元素完全居中<br>
+
     <Button
         android:layout_centerHorizontal="true"
       />
+      
 
-//yellow按钮相对于父元素右边
+//yellow按钮相对于父元素右边<br>
+
     <Button
         android:layout_alignParentRight="true"
       />
 
 
-//blue按钮相对于父元素完全居中并在red元素的下方
+//blue按钮相对于父元素完全居中并在red元素的下方<br>
     <Button
         android:layout_below="@+id/Left"
         android:layout_centerHorizontal="true"
      
         />
-//green在red元素的下方 在blue按钮的左边
+//green在red元素的下方 在blue按钮的左边<br>
     <Button
         android:layout_below="@+id/Left"
         android:layout_toLeftOf="@+id/Butten3"
         android:layout_toStartOf="@+id/Butten3"
         />
-//indigo在red元素的下方 在blue按钮的右边
+//indigo在red元素的下方 在blue按钮的右边<br>
     <Button
         android:layout_below="@+id/Left"
         android:layout_toEndOf="@+id/Butten3"
         android:layout_toRightOf="@+id/Butten3"
     />
-//VIOLET在离某元素blue的距离37dp，紧贴父元素结束位置开始
+//VIOLET在离某元素blue的距离37dp，紧贴父元素结束位置开始<br>
  
     <Button      
         android:layout_marginTop="37dp"
@@ -123,14 +128,14 @@
         android:layout_alignParentStart="true" />
 </RelativeLayout>
 
-···
+```
 #### 实验结果截图：
 
-![](https://github.com/123012013021/androidSpace/blob/master/Layout/img/2.png)<br>
+![](https://github.com/123012013021/androidSpace/blob/master/Layout/img/2.png)<br><br><br>
 
     
 
-利用表格布局实现如下界面：
+利用表格布局实现如下界面：<br>
 ![](https://github.com/123012013021/androidSpace/blob/master/Layout/img/6.png)<br>
 ```
 //定义表格布局管理器  tablelayout内嵌套多个tablerow
