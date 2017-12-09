@@ -153,5 +153,4 @@
 </TableLayout>```
 
 #### 实验结果截图：
-
-![](https://github.com/123012013021/androidSpace/blob/master/Layout/img/3.png)
+![](https://github.com/123012013021/androidSpace/blob/master/Layout/img/3.png)<br><br><br>
