@@ -137,9 +137,9 @@
 
 利用表格布局实现如下界面：<br>
 ![](https://github.com/123012013021/androidSpace/blob/master/Layout/img/6.png)<br>
-```
-//定义表格布局管理器  tablelayout内嵌套多个tablerow
 
+//定义表格布局管理器  tablelayout内嵌套多个tablerow
+```
 <TableLayout >
     <TableRow        
     </TableRow>
@@ -150,7 +150,9 @@
     <TableRow
     <TableRow
     </TableRow>
-</TableLayout>```
+</TableLayout>
+```
 
 #### 实验结果截图：
-![](https://github.com/123012013021/androidSpace/blob/master/Layout/img/3.png)<br><br><br>
+
+![](https://github.com/123012013021/androidSpace/blob/master/Layout/img/3.png)<br>
