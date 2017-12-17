@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-} ```
+} 
 
 
 #### 实验结果截图：
@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
 
 1. 建activity_main.xml文件 该界面只有一个button点击button 触发登录框
 2. 建alertdialog.xml文件  登录窗口
-···
+```
 //相对布局
     <RelativeLayout
         android:layout_width="250dp"
@@ -190,12 +190,11 @@ public class MainActivity extends AppCompatActivity {
                 android:text="sign in"
                 android:textSize="14sp" />
         </LinearLayout>
-    </RelativeLayout>
+    </RelativeLayout>```
 
 3. 建.java文件 实现逻辑联系
-
-
-```public class MainActivity extends AppCompatActivity {
+```
+public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -210,7 +209,7 @@ public class MainActivity extends AppCompatActivity {
                 builder.show();
             }
         });
-    }```
+    }
 
 #### 实验结果截图：
 
@@ -238,16 +237,16 @@ public class MainActivity extends AppCompatActivity {
 1. 创建 测试文字 的xml文件
 
 
-``` <EditText
+ <EditText
             android:id="@+id/et"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="用于测试的内容"
             android:editable="false"
-            />```
+            />
             
   2.  .java文件中创建菜单栏
-  ··· public boolean onCreateOptionsMenu(Menu menu){
+ public boolean onCreateOptionsMenu(Menu menu){
         SubMenu fontMenu = menu.addSubMenu("字体大小");
         fontMenu.setHeaderTitle("选择字体大小");
         fontMenu.add(0,Font_10,0,"10号字体");
@@ -284,12 +283,10 @@ public class MainActivity extends AppCompatActivity {
         }
         return
                 true;
-    }```
+    }
 
 
-
-
-实验结果截图：
+#### 实验结果截图：
 
 字体变黑：
 <br>
