@@ -4,7 +4,7 @@
 
 利用SimpleAdapter实现如下界面效果：
 
-![](https://github.com/123012013021/javaSpace/blob/master/IO_2/img/4.png)<br>
+![](https://github.com/123012013021/androidSpace/blob/master/UI/img/1demo.png)<br>
 ------------------------------------------
 （1）注意列表项的布局
 （2）图片使用QQ群附件资源
@@ -107,7 +107,9 @@ public class MainActivity extends AppCompatActivity {
 
 #### 实验结果截图：
 
-![](https://github.com/123012013021/javaSpace/blob/master/IO_2/img/1.png)<br>
+![](https://github.com/123012013021/androidSpace/blob/master/UI/img/1.png)<br>
+
+![](https://github.com/123012013021/androidSpace/blob/master/UI/img/1click.png)<br>
   
   
   
@@ -116,8 +118,7 @@ public class MainActivity extends AppCompatActivity {
 创建如图所示的自定义对话框
 
 
-![](https://github.com/123012013021/javaSpace/blob/master/IO_2/img/5.png)<br>
-
+![](https://github.com/123012013021/androidSpace/blob/master/UI/img/2demo.png)<br>
 
 调用 AlertDialog.Builder 对象上的 setView() 将布局添加到 AlertDialog。
 
@@ -215,11 +216,11 @@ public class MainActivity extends AppCompatActivity {
 
  登录框：<br>
 
-![](https://github.com/123012013021/javaSpace/blob/master/IO_2/img/2.png)<br>
+![](https://github.com/123012013021/androidSpace/blob/master/UI/img/2.png)<br>
 
  输入时：<br>
 
-![](https://github.com/123012013021/javaSpace/blob/master/IO_2/img/2.png)<br>
+![](https://github.com/123012013021/androidSpace/blob/master/UI/img/2click.png)<br>
 
 ## 使用XML定义菜单
 
@@ -227,7 +228,7 @@ public class MainActivity extends AppCompatActivity {
 创建如图所示的自定义对话框<br>
 
 
-![](https://github.com/123012013021/javaSpace/blob/master/IO_2/img/5.png)<br>
+![](https://github.com/123012013021/androidSpace/blob/master/UI/img/3demo.png)<br>
 
 使用XML定义菜单
 字体大小（有小，中，大这3个选项；分别对应10号字，16号字和20号字）；点击之后设置测试文本的字体
@@ -293,11 +294,11 @@ public class MainActivity extends AppCompatActivity {
 字体变黑：
 <br>
 
-![](https://github.com/123012013021/javaSpace/blob/master/IO_2/img/2.png)<br>
+![](https://github.com/123012013021/androidSpace/blob/master/UI/img/3.png)<br>
 
 字体变红：<br>
 
-![](https://github.com/123012013021/javaSpace/blob/master/IO_2/img/2.png)<br>
+![](https://github.com/123012013021/androidSpace/blob/master/UI/img/3click.png)<br>
 
 
 
