@@ -6,7 +6,7 @@
 
 
 1. 建一个.xml文件。给布局包含有 一个文本输入框、以及一个按钮
-```  <EditText
+  <EditText
             android:id="@+id/URL"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -24,10 +24,10 @@
                 android:background="@color/btn_color"
                 android:text="浏览该网页"
                 android:textSize="14sp" />
-```
+
 
 2. 建.java文件
-```
+
 
  super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);//设置页面布局
@@ -42,7 +42,7 @@
                 intent.setAction(Intent.ACTION_VIEW);//为Intent设置动作
                 String data=editText1.getText().toString();//获取编辑框里面的文本内容
                 intent.setData(Uri.parse(data));//为Intent设置数据
-                startActivity(intent);//将Intent传递给Activity```
+                startActivity(intent);//将Intent传递给Activity
 
 
 #### 实验结果截图：
